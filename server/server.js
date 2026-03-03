@@ -6,7 +6,7 @@ import userRoutes from "./routes/userRoutes.js";
 
 dotenv.config();
 
-connectDB(); // 👈 DB connect yaha call karo
+connectDB(); 
 
 const app = express();
 
