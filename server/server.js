@@ -15,7 +15,7 @@ app.use(cors({
     credentials: true,
   }));
 app.use(express.json());
-app.use("/api/users",userRoutes); //  User routes yaha use karo
+app.use("/api/users",userRoutes); 
 
 app.get("/", (req, res) => {
   res.send("AI Mock Interview API Running ...");
